@@ -7,6 +7,7 @@ use System\Classes\SettingsManager;
 
 class Plugin extends PluginBase
 {
+    public $require = ['vojtasvoboda.twigextensions'];
     public function registerComponents()
     {
         return [
